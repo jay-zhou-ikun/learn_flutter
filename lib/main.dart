@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import './demo/listview_demo.dart';
 import './demo/dreawer_demo.dart';
 import './demo/bottom_navigation_bar_demo.dart';
+import './demo/basic_demo.dart';
 
 void main() => runApp(App());
 
@@ -43,12 +44,7 @@ class Home extends StatelessWidget {
             icon: Icon(Icons.search),
             tooltip: 'Navigation',
             onPressed: () => debugPrint('Navigration button is pressed.'),
-            ),
-              IconButton(
-            icon: Icon(Icons.search),
-            tooltip: 'Navigation',
-            onPressed: () => debugPrint('Navigration button is pressed.'),
-            ),
+            )
             ],
           elevation: 0.0,
           bottom: TabBar(
@@ -67,7 +63,8 @@ class Home extends StatelessWidget {
           
           children: <Widget>[
             ListViewDemo(),
-            Icon(Icons.change_history, size: 128.0, color: Colors.black12),
+            // Icon(Icons.change_history, size: 128.0, color: Colors.black12),
+            BasicDemo(),
             Icon(Icons.directions_bike, size: 128.0, color: Colors.black12),
           ],
         
