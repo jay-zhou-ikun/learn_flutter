@@ -22,7 +22,7 @@ class BasicDemo extends StatelessWidget {
              ),
         ),
       ),
-
+      
       child: Row(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
@@ -88,7 +88,7 @@ class RitchTextDemo extends StatelessWidget {
     // TODO: implement build
     return RichText(
       text: TextSpan(
-        text: 'ninghao',
+        text: '你好',
         style: TextStyle(
           color: Colors.deepPurpleAccent,
           fontSize: 34.0,
