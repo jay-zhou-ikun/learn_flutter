@@ -5,6 +5,7 @@ import './demo/bottom_navigation_bar_demo.dart';
 import './demo/basic_demo.dart';
 import './demo/layout_demo.dart';
 import './demo/view_demo.dart';
+import './demo/sliver_demo.dart';
 
 void main() => runApp(App());
 
@@ -69,7 +70,7 @@ class Home extends StatelessWidget {
             // Icon(Icons.change_history, size: 128.0, color: Colors.black12),
             BasicDemo(),
             LayoutDemo(),
-            ViewDemo(),
+            SliverDemo(),
           ],
         
         ),
